@@ -1,0 +1,29 @@
+# IDE / System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*.local
+frontend/.env
+
+# Backend (.NET)
+backend/RezzkielIllusion.API/bin/
+backend/RezzkielIllusion.API/obj/
+backend/RezzkielIllusion.API/appsettings.json
+backend/RezzkielIllusion.API/wwwroot/uploads/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Secrets
+secrets.json
+.env
